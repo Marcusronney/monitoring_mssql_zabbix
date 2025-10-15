@@ -33,7 +33,7 @@ Instale o plugin MSSQL
 
 **2- mssql.conf**
 
-Crie um arquivo em **mssq.conf** em **\Zabbix Agent 2\zabbix_agent2.d\plugins.d\**
+Crie um arquivo em **mssql.conf** em **\Zabbix Agent 2\zabbix_agent2.d\plugins.d\**
 
 mssql.conf
 ````
@@ -69,9 +69,8 @@ Adicione o host com o template **MSSQL by Zabbix agent 2**.
 ![host](imagens/host.png)
 
 Altere as Macros para o seu server.
-
 ````
-{$MSSQL.HOST}: IP
+{$MSSQL.URI}: IP
 {$MSSQL.USER}: USUARIO
 {$MSSQL.PASSWORD}: SENHA
 ````
@@ -84,7 +83,13 @@ Altere as Macros para o seu server.
 ![data](imagens/data.png)
 
 
-
+Permissões User SQL:
+````
+GRANT SELECT ON OBJECT::msdb.dbo.sysjobs TO zbx_monitor;
+GRANT SELECT ON OBJECT::msdb.dbo.sysjobservers TO zbx_monitor;
+GRANT SELECT ON OBJECT::msdb.dbo.sysjobactivity TO zbx_monitor;
+GRANT EXECUTE ON OBJECT::msdb.dbo.agent_datetime TO zbx_monitor;
+````
 
 
 
