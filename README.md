@@ -2,7 +2,8 @@
 Zabbix monitoring and collecting Microsoft SQL Server via agent2
 
 
-Descrição
+
+### Guia prático para monitorar Microsoft SQL Server via Zabbix Agent 2 + Dashboard Grafana.
 --------------------
 
 # Dashboard
