@@ -7,11 +7,11 @@ Descrição
 
 # Dashboard
 
-![dashboard](dashboard1.png)
+![dashboard](imagens/dashboard1.png)
 
-![dashboard](dashboard2.png)
+![dashboard](imagens/dashboard2.png)
 
-![dashboard](dashboard3.png)
+![dashboard](imagens/dashboard3.png)
 
 
 # Deploy
