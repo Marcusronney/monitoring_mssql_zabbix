@@ -51,7 +51,7 @@ Realize um teste direto do server zabbix para testar a conexão, o retorno de **
 zabbix_get -s IP_SQL -p 10050 -k mssql.ping
 ````
 
-![ping](image-3.png)
+![ping](mssqlping.png)
 
 
 
@@ -61,7 +61,7 @@ zabbix_get -s IP_SQL -p 10050 -k mssql.ping
 
 Adicione o host com o template **MSSQL by Zabbix agent 2**.
 
-![host](image.png)
+![host](host.png)
 
 Altere as Macros para o seu server.
 
@@ -71,12 +71,12 @@ Altere as Macros para o seu server.
 {$MSSQL.PASSWORD}: SENHA
 ````
 
-![plugin](image-1.png)
+![macros](macros.png)
 
 
 **Dados Recentes:**
 
-![data](image-2.png)
+![data](data.png)
 
 
 
