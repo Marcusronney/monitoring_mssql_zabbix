@@ -7,11 +7,16 @@ Descrição
 
 # Dashboard
 
+![dashboard](dashboard1.png)
+
+![dashboard](dashboard2.png)
+
+![dashboard](dashboard3.png)
 
 
 # Deploy
 
-*Zabbix Version =* 7.4
+*Zabbix Version =* 7.4 - 
 *Documentação oficial*: https://www.zabbix.com/integrations/mssql
 
 ### Agent2 + Plugins
