@@ -4,6 +4,9 @@ Zabbix monitoring and collecting Microsoft SQL Server via agent2
 
 
 ### Guia prático para monitorar Microsoft SQL Server via Zabbix Agent 2 + Dashboard Grafana.
+
+Este repositório apresenta um pequeno guia prático para configurar o monitoramento do Microsoft SQL Server utilizando o Zabbix Agent 2, integrando métricas detalhadas em dashboards no Grafana.
+
 --------------------
 
 # Dashboard
@@ -95,7 +98,7 @@ GRANT EXECUTE ON OBJECT::msdb.dbo.agent_datetime TO zbx_monitor;
 
 
 
-
+**Grafana Lab**: https://grafana.com/grafana/dashboards/24267
 
 
 
